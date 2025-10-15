@@ -4,51 +4,167 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Agence Light — Wedding planner & Événementiel</title>
-  <meta name="description" content="Agence évènementiel (organisation de mariage, couverture media, organisation de baptême, locations d'articles événementiels)">
+  <meta name="description" content="Agence Light — Mariages élégants, décoration & coordination Jour J en Côte d’Ivoire.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='48' fill='%23f59e0b'/><text x='50' y='60' text-anchor='middle' font-size='56' fill='white' font-family='Arial'>A</text></svg>">
   <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="icon" href="actif/logo.jpg">
-  <style>:root{--gold:#f59e0b}</style>
+  <link rel="stylesheet" href="assets/styles.css">
 </head>
 <body class="bg-white text-gray-800">
-<header class="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur border-b border-gray-100">
-  <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
-    <a href="#hero" class="flex items-center gap-3">
-      <img src="actif/logo.jpg" alt="Agence Light" class="h-10 w-auto rounded-md">
-      <span class="font-bold tracking-tight text-lg">Agence Light</span>
-    </a>
-    <nav class="hidden md:flex gap-6 text-sm">
-      <a href="#services" class="hover:text-amber-600">Services</a>
-      <a href="#packages" class="hover:text-amber-600">Offres</a>
-      <a href="#portfolio" class="hover:text-amber-600">Portfolio</a>
-      <a href="#contact" class="hover:text-amber-600">Contact</a>
-    </nav>
-    <a href="https://wa.me/2250788688790" class="px-4 py-2 bg-amber-500 text-white rounded-2xl text-sm">WhatsApp</a>
-  </div>
-</header>
-
-<section id="hero" class="pt-28 pb-20">
-  <div class="max-w-6xl mx-auto px-4 grid md:grid-cols-2 gap-10 items-center">
-    <div>
-      <h1 class="text-4xl md:text-5xl font-extrabold tracking-tight leading-tight">AGENCELIGHT</h1>
-      <p class="mt-4 text-lg text-gray-600">Agence évènementiel (organisation de mariage, couverture media, organisation de baptême, locations d'articles événementiels)</p>
+  <!-- Header -->
+  <header class="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur border-b border-gray-100">
+    <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+      <a href="#hero" class="flex items-center gap-2">
+        <span class="inline-flex h-8 w-8 items-center justify-center rounded-xl bg-amber-500 text-white font-bold">A</span>
+        <span class="font-bold tracking-tight text-lg">Agence Light</span>
+      </a>
+      <nav class="hidden md:flex gap-6 text-sm">
+        <a href="#services" class="hover:text-amber-600">Services</a>
+        <a href="#packages" class="hover:text-amber-600">Offres</a>
+        <a href="#portfolio" class="hover:text-amber-600">Portfolio</a>
+        <a href="#contact" class="hover:text-amber-600">Contact</a>
+      </nav>
+      <a href="https://wa.me/2250788688790?text=Bonjour%20Agence%20Light%2C%20je%20souhaite%20plus%20d'infos%20sur%20vos%20services" class="px-4 py-2 bg-amber-500 text-white rounded-2xl text-sm">WhatsApp</a>
     </div>
-    <div class="relative">
-      <div class="aspect-[4/5] w-full rounded-3xl bg-gray-100 overflow-hidden shadow-2xl">
-        <img src="actif/images/hero.jpg" class="w-full h-full object-cover" alt="Visuel Agence Light">
+  </header>
+
+  <!-- Hero -->
+  <section id="hero" class="pt-28 pb-20">
+    <div class="max-w-6xl mx-auto px-4 grid md:grid-cols-2 gap-10 items-center">
+      <div>
+        <h1 class="text-4xl md:text-5xl font-extrabold tracking-tight leading-tight">Mariages élégants, sans stress, 100% vous ✨</h1>
+        <p class="mt-4 text-lg text-gray-600">
+          Wedding planner & décoration — nous orchestrons chaque détail pour transformer votre vision en réalité.
+        </p>
+        <div class="mt-6 flex flex-wrap gap-3">
+          <a href="#packages" class="px-5 py-3 rounded-2xl bg-amber-500 text-white text-sm">Découvrir nos offres</a>
+          <a href="https://wa.me/2250788688790?text=Bonjour%20Agence%20Light%2C%20je%20souhaite%20plus%20d'infos%20sur%20vos%20services" class="px-5 py-3 rounded-2xl border border-amber-500 text-sm text-amber-700">Obtenir un devis</a>
+        </div>
+        <div class="mt-6 flex items-center gap-6 text-sm text-gray-600">
+          <div class="flex items-center gap-2"><span class="i">📅</span> Coordination Jour J</div>
+          <div class="flex items-center gap-2"><span class="i">✨</span> Design & déco</div>
+          <div class="flex items-center gap-2"><span class="i">🎉</span> Location d’articles</div>
+        </div>
+      </div>
+      <div class="relative">
+        <div class="aspect-[4/5] w-full rounded-3xl bg-gray-100 overflow-hidden shadow-2xl">
+          <img src="https://images.unsplash.com/photo-1522673607200-164d1b6ce486?q=80&w=1600&auto=format&fit=crop" class="w-full h-full object-cover" alt="Décoration de mariage élégante">
+        </div>
+        <div class="absolute -bottom-5 -right-5 bg-white rounded-2xl shadow-lg px-4 py-3 text-sm border">
+          <div class="font-semibold">Votre date est-elle disponible ?</div>
+          <div class="text-gray-600">Écrivez‑nous sur WhatsApp pour vérifier la disponibilité.</div>
+        </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<section id="portfolio" class="py-16">
-  <div class="max-w-6xl mx-auto px-4">
-    <h2 class="text-3xl font-bold tracking-tight">Portfolio</h2>
-    <div class="mt-8 grid sm:grid-cols-2 md:grid-cols-3 gap-4">
-      <div class="aspect-[4/5] rounded-2xl bg-gray-100 overflow-hidden"><img class="w-full h-full object-cover" src="actif/images/portfolio_01.jpg" alt="Portfolio 1"></div><div class="aspect-[4/5] rounded-2xl bg-gray-100 overflow-hidden"><img class="w-full h-full object-cover" src="actif/images/portfolio_02.jpg" alt="Portfolio 2"></div><div class="aspect-[4/5] rounded-2xl bg-gray-100 overflow-hidden"><img class="w-full h-full object-cover" src="actif/images/portfolio_03.jpg" alt="Portfolio 3"></div><div class="aspect-[4/5] rounded-2xl bg-gray-100 overflow-hidden"><img class="w-full h-full object-cover" src="actif/images/portfolio_04.jpg" alt="Portfolio 4"></div><div class="aspect-[4/5] rounded-2xl bg-gray-100 overflow-hidden"><img class="w-full h-full object-cover" src="actif/images/portfolio_05.jpg" alt="Portfolio 5"></div><div class="aspect-[4/5] rounded-2xl bg-gray-100 overflow-hidden"><img class="w-full h-full object-cover" src="actif/images/portfolio_06.jpg" alt="Portfolio 6"></div><div class="aspect-[4/5] rounded-2xl bg-gray-100 overflow-hidden"><img class="w-full h-full object-cover" src="actif/images/portfolio_07.jpg" alt="Portfolio 7"></div><div class="aspect-[4/5] rounded-2xl bg-gray-100 overflow-hidden"><img class="w-full h-full object-cover" src="actif/images/portfolio_08.jpg" alt="Portfolio 8"></div><div class="aspect-[4/5] rounded-2xl bg-gray-100 overflow-hidden"><img class="w-full h-full object-cover" src="actif/images/portfolio_09.jpg" alt="Portfolio 9"></div><div class="aspect-[4/5] rounded-2xl bg-gray-100 overflow-hidden"><img class="w-full h-full object-cover" src="actif/images/portfolio_10.jpg" alt="Portfolio 10"></div>
+  <!-- Services -->
+  <section id="services" class="py-16 border-t">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-3xl font-bold tracking-tight">Nos services</h2>
+      <p class="text-gray-600 mt-2">À personnaliser selon vos offres.</p>
+      <div class="mt-10 grid md:grid-cols-3 gap-6">
+        <div class="rounded-3xl border p-6 bg-white hover:shadow-md transition">
+          <div class="inline-flex h-10 w-10 items-center justify-center rounded-2xl bg-amber-500 text-white">🎨</div>
+          <div class="mt-4 font-semibold">Direction artistique</div>
+          <div class="text-sm text-gray-600 mt-1">Thème, palette, moodboard, scénographie.</div>
+        </div>
+        <div class="rounded-3xl border p-6 bg-white hover:shadow-md transition">
+          <div class="inline-flex h-10 w-10 items-center justify-center rounded-2xl bg-amber-500 text-white">🧭</div>
+          <div class="mt-4 font-semibold">Coordination Jour J</div>
+          <div class="text-sm text-gray-600 mt-1">Timing, gestion des prestataires & invités.</div>
+        </div>
+        <div class="rounded-3xl border p-6 bg-white hover:shadow-md transition">
+          <div class="inline-flex h-10 w-10 items-center justify-center rounded-2xl bg-amber-500 text-white">🪑</div>
+          <div class="mt-4 font-semibold">Location d’articles</div>
+          <div class="text-sm text-gray-600 mt-1">Décor, mobilier, vaisselle, arches, tapis, etc.</div>
+        </div>
+      </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<footer class="py-10 border-t text-center text-sm text-gray-600">© Agence Light</footer>
+  <!-- Packages -->
+  <section id="packages" class="py-16 bg-gray-50">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-3xl font-bold tracking-tight">Nos offres</h2>
+      <p class="text-gray-600 mt-2">Remplacez les intitulés et prix selon vos packages.</p>
+      <div class="mt-10 grid md:grid-cols-3 gap-6">
+        <!-- Cartes d'offre (exemples modifiables) -->
+        <div class="relative rounded-3xl border bg-white p-6 shadow-sm">
+          <div class="text-xl font-bold">Essentiel</div>
+          <div class="mt-1 text-sm text-gray-600">à partir de 350 000 FCFA</div>
+          <ul class="mt-5 space-y-3 text-sm text-gray-700 list-disc pl-5">
+            <li>Conseil & feuille de route</li>
+            <li>Check‑list personnalisée</li>
+            <li>Coordination Jour J (8h)</li>
+          </ul>
+        </div>
+        <div class="relative rounded-3xl border bg-white p-6 shadow-sm ring-2 ring-amber-500">
+          <div class="absolute -top-3 left-6 bg-amber-500 text-white text-xs px-3 py-1 rounded-full">Le plus demandé</div>
+          <div class="text-xl font-bold">Sérénité</div>
+          <div class="mt-1 text-sm text-gray-600">à partir de 950 000 FCFA</div>
+          <ul class="mt-5 space-y-3 text-sm text-gray-700 list-disc pl-5">
+            <li>Planification complète</li>
+            <li>Design & scénographie</li>
+            <li>Gestion des prestataires</li>
+          </ul>
+        </div>
+        <div class="relative rounded-3xl border bg-white p-6 shadow-sm">
+          <div class="text-xl font-bold">Luxe sur‑mesure</div>
+          <div class="mt-1 text-sm text-gray-600">Devis personnalisé</div>
+          <ul class="mt-5 space-y-3 text-sm text-gray-700 list-disc pl-5">
+            <li>Direction artistique premium</li>
+            <li>Décor exclusif & location d’articles</li>
+            <li>Conciergerie invités</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio -->
+  <section id="portfolio" class="py-16">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-3xl font-bold tracking-tight">Portfolio</h2>
+      <p class="text-gray-600 mt-2">Remplacez ces photos par vos réalisations (upload dans /images et changez les liens).</p>
+      <div class="mt-8 grid sm:grid-cols-2 md:grid-cols-3 gap-4">
+        <div class="aspect-[4/5] rounded-2xl bg-gray-100 overflow-hidden"><img class="w-full h-full object-cover" src="https://images.unsplash.com/photo-15226100-abcdef?q=80&w=1080&auto=format&fit=crop" alt="Réalisation 1"></div><div class="aspect-[4/5] rounded-2xl bg-gray-100 overflow-hidden"><img class="w-full h-full object-cover" src="https://images.unsplash.com/photo-15226101-abcdef?q=80&w=1080&auto=format&fit=crop" alt="Réalisation 2"></div><div class="aspect-[4/5] rounded-2xl bg-gray-100 overflow-hidden"><img class="w-full h-full object-cover" src="https://images.unsplash.com/photo-15226102-abcdef?q=80&w=1080&auto=format&fit=crop" alt="Réalisation 3"></div><div class="aspect-[4/5] rounded-2xl bg-gray-100 overflow-hidden"><img class="w-full h-full object-cover" src="https://images.unsplash.com/photo-15226103-abcdef?q=80&w=1080&auto=format&fit=crop" alt="Réalisation 4"></div><div class="aspect-[4/5] rounded-2xl bg-gray-100 overflow-hidden"><img class="w-full h-full object-cover" src="https://images.unsplash.com/photo-15226104-abcdef?q=80&w=1080&auto=format&fit=crop" alt="Réalisation 5"></div><div class="aspect-[4/5] rounded-2xl bg-gray-100 overflow-hidden"><img class="w-full h-full object-cover" src="https://images.unsplash.com/photo-15226105-abcdef?q=80&w=1080&auto=format&fit=crop" alt="Réalisation 6"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-16 bg-gray-50">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-3xl font-bold tracking-tight">Contact</h2>
+      <div class="mt-8 grid md:grid-cols-3 gap-6">
+        <div class="rounded-3xl border p-6 bg-white">
+          <div class="font-semibold">Téléphone</div>
+          <div class="text-sm text-gray-600 mt-1">+225 07 88 68 87 90</div>
+        </div>
+        <div class="rounded-3xl border p-6 bg-white">
+          <div class="font-semibold">Email</div>
+          <a href="mailto:agenceligth38@gmail.com" class="text-sm text-amber-700 hover:underline mt-1">agenceligth38@gmail.com</a>
+        </div>
+        <div class="rounded-3xl border p-6 bg-white">
+          <div class="font-semibold">Adresse</div>
+          <div class="text-sm text-gray-600 mt-1">Abidjan, Côte d’Ivoire</div>
+        </div>
+      </div>
+      <div class="mt-6 flex gap-3">
+        <a href="https://wa.me/2250788688790?text=Bonjour%20Agence%20Light%2C%20je%20souhaite%20plus%20d'infos%20sur%20vos%20services" class="px-5 py-3 rounded-2xl bg-amber-500 text-white text-sm">Discuter sur WhatsApp</a>
+        <a href="https://www.instagram.com/agence_light/" class="px-5 py-3 rounded-2xl border text-sm">Instagram</a>
+        <a href="https://www.facebook.com/byAmessanDebora/about/" class="px-5 py-3 rounded-2xl border text-sm">Facebook</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="py-10 border-t">
+    <div class="max-w-6xl mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-4">
+      <div class="text-sm text-gray-600">© 2025 Agence Light. Tous droits réservés.</div>
+      <div class="text-xs text-gray-500">agencelight.com</div>
+    </div>
+  </footer>
+
+  <script src="assets/app.js"></script>
 </body>
 </html>
